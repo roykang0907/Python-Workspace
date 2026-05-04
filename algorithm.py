@@ -2720,3 +2720,18 @@ for i in range(1, n-1):
     ans = max(ans, (s[i]-s[0]) + (s[n-2]-s[i-1]))
 
 print(ans)'''
+#코드업 4021번 홀수의 합 구하기
+'''l = list(map(int, input().split()))
+arr = []
+
+for i in l:
+    if i % 2 == 1:
+        arr.append(i)
+
+print(sum(arr) if arr != [] else -1)'''
+#코드업 4026번 중앙 값
+'''numbers = list(map(int, input().split()))
+
+numbers.sort()
+
+print(numbers[2])'''
