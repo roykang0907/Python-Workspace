@@ -2720,4 +2720,3 @@ for i in range(1, n-1):
     ans = max(ans, (s[i]-s[0]) + (s[n-2]-s[i-1]))
 
 print(ans)'''
-#
