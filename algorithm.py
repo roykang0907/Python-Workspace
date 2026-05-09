@@ -2735,4 +2735,3 @@ print(sum(arr) if arr != [] else -1)'''
 numbers.sort()
 
 print(numbers[2])'''
-print("")
